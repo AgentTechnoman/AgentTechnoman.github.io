@@ -1,4 +1,8 @@
 #!/bin/bash
+echo "Adding new/updated files..."
 git add .
+echo "Committing changes..."
 git commit -m "Initial commit"
+echo "Pushing changes to GitHub..."
 git push -u origin master
+echo "All done."
